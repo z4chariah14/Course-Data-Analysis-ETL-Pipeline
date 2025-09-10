@@ -11,14 +11,14 @@ The pipeline also creates logs and a changelog to track updates.
 
 ## Folder Structure
 
-Course_data_analysis/               ← Your project root folder
+Course_data_analysis/               ← Project root folder
 ├── dev/                            ← Development/staging environment
 ├── prod/                           ← Production-ready outputs
 ├── notebooks/                      ← Jupyter notebook(s) for exploration
 ├── scripts/                        ← Python scripts for pipeline, tests, utilities
-| |── run_pipeline.sh               ← Bash script to run your pipeline
+| |── run_pipeline.sh               ← Bash script to run the pipeline
 ├── README.md                       ← Project overview and documentation
-└── requirements.txt                ← List of Python packages you used
+└── requirements.txt                ← List of Python packages used
 
 ------------------------------------------------------------------------
 
