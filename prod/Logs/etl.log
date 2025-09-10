@@ -1,0 +1,14 @@
+2025-08-15 18:02:59,662 [INFO] ETL pipeline started
+2025-08-15 18:02:59,662 [INFO] Extracting data from C:\Users\zadeboye\Documents\Database\Course_data_analysis\dev\cademycode.db
+2025-08-15 18:02:59,679 [INFO] Row counts before cleaning: {'cademycode_students': 5000, 'student_jobs': 13, 'courses': 10}
+2025-08-15 18:02:59,679 [INFO] Transforming data
+2025-08-15 18:03:00,091 [INFO] Row counts after cleaning: {'cademycode_students': 4293, 'student_jobs': 10, 'courses': 10}
+2025-08-15 18:03:00,091 [INFO] Loading cleaned data into C:\Users\zadeboye\Documents\Database\Course_data_analysis\prod\cleaned_cademycode_dev.db and C:\Users\zadeboye\Documents\Database\Course_data_analysis\prod\clean_data.csv
+2025-08-15 18:03:00,170 [INFO] Load complete — cleaned tables written to database and CSV
+2025-08-15 18:03:00,170 [INFO] ETL pipeline completed successfully!
+2025-08-16 00:51:43,480 [INFO] Extracting data from C:\Users\zadeboye\Documents\Database\Course_data_analysis\dev\cademycode.db
+2025-08-16 00:51:43,498 [INFO] Row counts before cleaning: {'cademycode_students': 5000, 'student_jobs': 13, 'courses': 10}
+2025-08-16 00:51:43,498 [INFO] Transforming data
+2025-08-16 00:51:43,782 [INFO] Row counts after cleaning: {'cademycode_students': 4293, 'student_jobs': 10, 'courses': 10}
+2025-08-16 00:51:43,782 [INFO] Loading cleaned data into test_cleaned.db and test_cleaned.csv
+2025-08-16 00:51:43,852 [INFO] Load complete — cleaned tables written to database and CSV
