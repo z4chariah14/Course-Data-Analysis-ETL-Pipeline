@@ -1,4 +1,4 @@
-# CademyCode ETL Pipeline
+# ETL Pipeline
 
 This project implements an **Extract--Transform--Load (ETL)** process to
 clean and update the `cademycode` database.\
