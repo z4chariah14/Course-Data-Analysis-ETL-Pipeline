@@ -72,7 +72,7 @@ Course_data_analysis/               ← Project root folder
 3.  **Run the pipeline**
 
     ``` bash
-    bash update.sh
+    bash run_pipeline.sh
     ```
 
     This will:
@@ -139,7 +139,7 @@ as expected.
 pip install pandas
 
 # Run the ETL process
-bash update.sh
+bash run_pipeline.sh
 
 # Run unit tests
 python -m unittest test_etl_pipeline.py -v
