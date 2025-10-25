@@ -12,13 +12,20 @@ The pipeline also creates logs and a changelog to track updates.
 ## Folder Structure
 
 Course_data_analysis/               ← Project root folder
-├── dev/                            ← Development/staging environment
-├── prod/                           ← Production-ready outputs
-├── notebooks/                      ← Jupyter notebook(s) for exploration
-├── scripts/                        ← Python scripts for pipeline, tests, utilities
-| |── run_pipeline.sh               ← Bash script to run the pipeline
-├── README.md                       ← Project overview and documentation
-└── requirements.txt                ← List of Python packages used
+
+    ├── dev/                            ← Development/staging environment
+
+    ├── prod/                           ← Production-ready outputs
+
+    ├── notebooks/                      ← Jupyter notebook(s) for exploration
+    
+    ├── scripts/                        ← Python scripts for pipeline, tests, utilities
+    
+    | |── run_pipeline.sh               ← Bash script to run the pipeline
+    
+    ├── README.md                       ← Project overview and documentation
+    
+    └── requirements.txt                ← List of Python packages used
 
 ------------------------------------------------------------------------
 
@@ -32,7 +39,7 @@ Course_data_analysis/               ← Project root folder
     -   Logs run details in `prod/Logs/etl.log`.\
     -   Appends version information and row counts to
         `prod/etl.log`.
--   **update.sh**
+-   **run_pipeline.sh**
     -   Simple script to run the ETL pipeline in one command.
 -   **test_etl_pipeline.py**
     -   Unit tests that verify:
